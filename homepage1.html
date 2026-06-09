@@ -1,81 +1,8 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
     <title>The Art Works Show Case</title>
-
-    <style>
-
-        /* ===== BASIC PAGE SETUP ===== */
-        body {
-            margin: 0;
-            padding: 20px;
-            backgroud-color: #666;   
-            font-family: Arial;
-        }
-        /* ===== STAR DECORATION ===== */
-        .star {
-            font-size: 50;           
-            color: #999;
-        }
-        /* ===== TITLE SECTION ===== */
-        header {
-            background-color: #888;
-            padding: 20px;
-            text-align: center;
-            border: 3px solid #999;
-            border-raduis: 5px;      
-            margin-bottom: 30px;
-        }
-                header h1 {
-            color: #333;
-            margin: 0;
-            font-style: italic;
-        }
-           /* ===== MAIN LAYOUT (2 columns) ===== */
-        .layout {
-            display: felx;          
-            gap: 30px;
-        }
-         /* ===== LEFT SIDE (BUTTONS) ===== */
-        .left-section {
-            widht: 40%;             
-        }
-        .button:hover {
-            backgroud-color: #d99a8f; 
-        }        
-         /* ===== RIGHT SIDE (CONTENT) ===== */
-        .right-section {
-            width: 60%;
-        }
-        /* ===== QUESTION BOX ===== */
-        .question-box {
-            background-color: #e8b4a8;
-            padding: 15px;
-            border-radius: 5px;
-            margin-botom: 15px;      
-        }
-          .question-box h2 {
-            margin: 0;
-            colour: #333;            
-            font-style: italic;
-        }
-                /* ===== INFO BOX ===== */
-        .info-box {
-            background-color: white;
-            border: 2px solid #999;
-            padding: 15px;
-            border-radius: 5px;
-        }
-
-        .info-box h3 {
-            margin: 0;
-            color: #333;
-        }
-         </style>
-
+    <link rel="stylesheet" href="stylehomepage.css">
 </head>
 
 <body>
@@ -87,41 +14,33 @@
     <header>
         <h1>The art works show case</h1>
     </header>
-<!-- MAIN CONTAINER WITH 2 COLUMNS -->
+
+    <!-- MAIN CONTAINER WITH 2 COLUMNS -->
     <div class="layout">
 
         <!-- LEFT SIDE: BUTTONS -->
         <div class="left-section">
-
-            <button class="buton">Acrylic</button> 
-
-            <buton class="button">water color</buton> 
-
+            <button class="button">Acrylic</button>
+            <button class="button">water color</button>
             <button class="button">INK</button>
-
             <button class="button">More Info</button>
-
         </div>
- <!-- RIGHT SIDE: CONTENT -->
-        <div class="right-section">
 
+        <!-- RIGHT SIDE: CONTENT -->
+        <div class="right-section">
+            <!-- Question Box -->
             <div class="question-box">
                 <h2>How was this possible ?</h2>
+                <p>I created this website to display student artwork. I asked students for permission to use their paintings in different styles Acrylic, Watercolor, and Ink. By organizing their work online, I made it possible for everyone to see and appreciate their hard work.</p>
             </div>
 
+            <!-- Info Box -->
             <div class="info-box">
-                <h3>
-                    I wanted to give our painting class a bigger audience.
-                    So I asked my classmates for permission to share their
-                    paintings, collected their work in different art styles,
-                    and built this website.
-                </h3>
+                <h3>INFO</h3>
             </div>
-
-        
+        </div>
 
     </div>
 
 </body>
-
 </html>

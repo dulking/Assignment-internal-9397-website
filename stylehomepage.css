@@ -1,0 +1,98 @@
+/* =====  PAGE SETUP ===== */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #666;
+    font-family: Arial;
+}
+
+/* ===== STAR DECORATION ===== */
+.star {
+    font-size: 50px;
+    color: #999;
+}
+
+/* ===== TITLE SECTION ===== */
+header {
+    background-color: #888;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #999;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #333;
+    margin: 0;
+    font-style: italic;
+}
+
+/* ===== MAIN LAYOUT (2 columns) ===== */
+.layout {
+    display: flex;
+    gap: 30px;
+}
+
+/* ===== LEFT SIDE (BUTTONS) ===== */
+.left-section {
+    width: 40%;
+}
+
+/* ===== BUTTONS STYLING ===== */
+.button {
+    background-color: #e8b4a8;
+    color: #333;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* What happens when you hover over button */
+.button:hover {
+    background-color: #d99a8f;
+}
+
+/* ===== RIGHT SIDE (CONTENT) ===== */
+.right-section {
+    width: 60%;
+}
+
+/* ===== QUESTION BOX ===== */
+.question-box {
+    background-color: #e8b4a8;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.question-box h2 {
+    margin: 0;
+    color: #333;
+    font-style: italic;
+}
+
+.question-box p {
+    margin: 10px 0 0 0;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ===== INFO BOX ===== */
+.info-box {
+    background-color: white;
+    border: 2px solid #999;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.info-box h3 {
+    margin: 0;
+    color: #333;
+}

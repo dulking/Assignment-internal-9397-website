@@ -1,0 +1,101 @@
+/* ===== BASIC PAGE SETUP ===== */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f5fb;
+    font-family: Arial;
+    position: relative;
+}
+/* Adding the wallpaper page 2 css */
+
+body {
+  background-image: url('watercolourpage11.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+/* ===== LOGO ===== */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: #7fb3d5;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #5a9bc6;
+    border-radius: 5px;
+    margin: 0 auto 30px;
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    color: white;
+    font-style: italic;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* ===== DESCRIPTION BOX ===== */
+.description-box {
+    background-color: white;
+    border: 2px solid #5a9bc6;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.description-box h2 {
+    margin: 0 0 10px 0;
+    color: #5a9bc6;
+    font-style: italic;
+}
+
+.description-box p {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ===== GALLERY GRID (2x2) ===== */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+/* ===== ARTWORK ITEMS ===== */
+.artwork-item {
+    background-color: #b3d9f2;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    aspect-ratio: 1;
+}
+
+.artwork-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

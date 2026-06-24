@@ -69,8 +69,11 @@ header h1 {
 
 /* ===== RIGHT SIDE (CONTENT) ===== */
 .right-section {
-    width: 60%;
+    width: 40%;
+    margin-top: 350px;
 }
+
+
 
 /* ===== QUESTION BOX ===== */
 .question-box {

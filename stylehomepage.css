@@ -6,10 +6,17 @@ body {
     font-family: Arial;
 }
 
-/* ===== STAR DECORATION ===== */
-.star {
-    font-size: 50px;
-    color: #999;
+/* ===== logo DECORATION ===== */
+.star{
+    display:flex;
+    float: left;
+    
+}
+
+
+.star img{
+    width: auto;
+    height: 60px;
 }
 
 /* ===== adding the wallpaper css===== */
@@ -106,3 +113,5 @@ header h1 {
     margin: 0;
     color: #333;
 }
+
+

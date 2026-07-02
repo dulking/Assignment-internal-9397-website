@@ -1,0 +1,110 @@
+/* ===== BASIC PAGE SETUP ===== */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    background-image: url('moreinfopage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    font-family: Arial;
+    position: relative;
+}
+
+/* ===== LOGO ===== */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: #f5e6d3;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin: 0 auto 40px;
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* ===== INFO SECTION ===== */
+.info-section {
+    margin-bottom: 40px;
+}
+
+/* ===== QUESTION BOX ===== */
+.question-box {
+    background-color: #f5e6d3;
+    border: 3px solid #1e3a8a;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.question-box h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* ===== ANSWER BOX ===== */
+.answer-box {
+    background-color: #d9d9d9;
+    border: 1px solid #999;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 100px;
+}
+
+.answer-box p {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+}
+/* ===== logo DECORATION ===== */
+.star{
+    display:flex;
+    float: left;
+    
+}
+
+
+.star img{
+    width: auto;
+    height: 60px;
+}
+/* ===== adding the wallpaper css===== */
+body {
+  background-image: url('moreinfowallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}

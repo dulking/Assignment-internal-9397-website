@@ -3,13 +3,14 @@ body {
     margin: 0;
     padding: 20px;
     background-color: #fffaf0;
-    background-image: url('acrylicpage.jpg');
+    background-image: url('arcylic.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
     font-family: Arial;
     position: relative;
 }
+
 
 /* ===== LOGO ===== */
 .logo {

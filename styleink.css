@@ -96,7 +96,7 @@ header h1 {
 }
 
 .artwork-item img {
-    width: 100%;
+    width: 50%;
     height: auto;
     object-fit: contain;
     display: block;
@@ -113,12 +113,15 @@ background-color: white;
     text-align: center;
     font-weight: bold;
     color: #333;
-    font-size: 14px;
+    font-size: 16px;
     border: 1px solid #ddd;
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 10px 10px;
     margin: 0;
-    padding: 10px;             
+    padding: 10px;       
+      
 }     
+        
+
 
 /* ===== adding the wallpaper css===== */
 body {

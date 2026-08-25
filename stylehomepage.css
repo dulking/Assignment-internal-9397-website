@@ -21,7 +21,7 @@ body {
 
 /* ===== adding the wallpaper css===== */
 body {
-  background-image: url('imagehomepage.jpg');
+  background-image: url('homebackground.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;

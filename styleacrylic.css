@@ -125,7 +125,6 @@ background-color: white;
     padding: 10px;             
 }     
 
-
 /* ===== logo DECORATION ===== */
 .star{
     display:flex;
@@ -141,7 +140,7 @@ background-color: white;
 
 /* ===== adding the wallpaper css===== */
 body {
-  background-image: url('arcylicimage.jpg');
+  background-image: url('arcylicimgfinal.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;

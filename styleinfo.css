@@ -28,7 +28,7 @@ body {
 
 /* ===== HEADER ===== */
 header {
-    background-color: #f5e6d3;
+    background-color: #f6bfbf;
     padding: 20px;
     text-align: center;
     border: 2px solid #333;
@@ -59,8 +59,8 @@ header h1 {
 
 /* ===== QUESTION BOX ===== */
 .question-box {
-    background-color: #f5e6d3;
-    border: 3px solid #1e3a8a;
+    background-color: #f6b3b3;
+    border: 3px solid #eaeffa;
     padding: 15px 20px;
     border-radius: 5px;
     margin-bottom: 15px;
@@ -76,8 +76,8 @@ header h1 {
 
 /* ===== ANSWER BOX ===== */
 .answer-box {
-    background-color: #d9d9d9;
-    border: 1px solid #999;
+    background-color: #ffb8b8;
+    border: 1px solid #000000;
     padding: 20px;
     border-radius: 5px;
     min-height: 100px;
@@ -85,7 +85,7 @@ header h1 {
 
 .answer-box p {
     margin: 0;
-    color: #333;
+    color: #000000;
     font-size: 18px;
     line-height: 1.6;
 }
